@@ -90,7 +90,7 @@ a {
     color: black;
 }
 
-.work {
-    display: flex;
-    flex-wrap: wrap;
+.yoga img {
+    width: 100%;
+    border: 5px solid steelblue;
 }
