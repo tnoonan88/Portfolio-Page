@@ -91,7 +91,14 @@ a {
     color: black;
 }
 
-.yoga img {
+.flex-container {
+   display: flex;
+   flex-direction: column;
+   padding: 10px;
+
+}
+
+.flex-container img {
     width: 100%;
     border: 5px solid steelblue;
 }
