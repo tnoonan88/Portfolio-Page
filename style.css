@@ -109,6 +109,16 @@ a {
     border: 5px solid steelblue;
 }
 
+.primary-image{
+    width: 100%;
+}
+.secondary-image{
+    display:flex;  
+}
+.secondary-image img{
+    width: 50%;
+}
+
 .project-tag {
     position: absolute;
     bottom: 20px;
