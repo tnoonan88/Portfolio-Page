@@ -9,7 +9,7 @@
     margin-bottom: 20px;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
-    background-color: lightslategray;
+    background-color: slategray;
     color: mintcream;
 }
 
@@ -34,6 +34,12 @@
     display: inline-block;
     margin-left: 10px;
     border-bottom: 3px solid mintcream;
+    text-decoration: none;
+}
+
+.header nav ul li a:hover {
+    background-color: mintcream;
+    color: slategray;
 }
 
 .content {
@@ -59,7 +65,7 @@ a {
 }
 
 .content-section div {
-    border-left: 3px solid gray;
+    border-left: 3px solid slategray;
     width: 75%;
     padding: 20px;
     text-align: left;
@@ -83,7 +89,7 @@ a {
 .content-section ul li {
     display: inline-block;
     font-weight: bold;
-    border-bottom: 3px solid gray;
+    border-bottom: 3px solid slategray;
 }
 
 .content-section a {
@@ -92,13 +98,21 @@ a {
 }
 
 .flex-container {
-   display: flex;
-   flex-direction: column;
-   padding: 10px;
-
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
+    display: flex;
+    flex-direction: column;
 }
 
 .flex-container img {
     width: 100%;
     border: 5px solid steelblue;
+}
+
+.project-tag {
+    position: absolute;
+    bottom: 20px;
+    left: 20px;
+    background-color: steelblue;
+    color: mintcream;
 }
