@@ -65,16 +65,15 @@ a {
 }
 
 .content-section div {
-    border-left: 3px solid slategray;
     width: 75%;
     padding: 20px;
     text-align: left;
 }
 
 .content-section h2 {
+    display: flex;
     width: 15%;
     font-family: 'Courier New', Courier, monospace;
-    display: flex;
     justify-content: right;
     padding-right: 10px;
 }
@@ -98,31 +97,39 @@ a {
 }
 
 .flex-container {
+    border-left: 3px solid slategray;
+    width: 600px;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
     display: flex;
-    flex-direction: column;
+    flex-flow: row wrap;
 }
 
 .flex-container img {
     width: 100%;
-    border: 5px solid steelblue;
+    border: 5px solid slategray;
 }
 
 .primary-image{
-    width: 100%;
-}
-.secondary-image{
-    display:flex;  
-}
-.secondary-image img{
-    width: 50%;
+    flex: 1 1 100%;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace;
 }
 
-.project-tag {
-    position: absolute;
-    bottom: 20px;
-    left: 20px;
-    background-color: steelblue;
-    color: mintcream;
+.secondary-image{
+    flex: 1 1 50%;
+    padding: 10px;
+    position: relative;
+    font-family: 'Courier New', Courier, monospace; 
 }
+
+.text-block {
+    position: absolute;
+    width: 100px !important;
+    bottom: 40px;
+    right: 35px;
+    background: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding-left: 20px !important;
+    padding-right: 20px !important;
+  }
