@@ -7,40 +7,53 @@
 :root {
     --darkblue: #227093;
     --lightblue: #34ace0;
+    --light: mintcream;
 }
 
 .header {
+    display: flex;
     padding: 20px;
     width: 100%;
     font-family: 'Courier New', Courier, monospace;
     background-color: var(--darkblue);
-    color: mintcream;
+    color: var(--light);
+}
+
+.avatar {
+    vertical-align: middle;
+    width: 75px;
+    height: 75px;
+    border-radius: 50%;
 }
 
 .header h1 {
     display: inline-block;
     font-size: 48px;
+    align-self: center;
+    padding-left: 5px;
 }
 
 nav {
     display: flex;
-    padding-top: 15px;
+    margin-left: auto;
     margin-right: 20px;
     float: right;
     font-family: 'Courier New', Courier, monospace;
     font-size: 20px;
 }
 
-nav a{
+nav a {
     display: inline-flex;
-    margin-left: 10px;
-    border-bottom: 3px solid mintcream;
-    text-decoration: none;
+    margin-left: 15px;
+    color: var(--light);
+    text-decoration: underline solid var(--light);
+    align-items: center;
 }
 
 nav a:hover {
-    background-color: mintcream;
-    color: slategray;
+    color: var(--darkblue);
+    text-decoration: underline solid var(--darkblue);
+    background-color: var(--light);
 }
 
 .hero {
@@ -57,7 +70,6 @@ p {
 
 a {
     text-decoration: none;
-    color: mintcream;
 }
 
 .content-section {
@@ -110,31 +122,18 @@ h2 {
     flex-flow: row wrap;
 }
 
-@media screen and (max-width: 768px) {
-    .flex-container, nav {
-        flex-flow: column;
-    }
-}
-  
-@media screen and (max-width: 768px) {
-    nav {
-        font-size: 16px;
-        padding-top: 1px;
-    }
-}
-
 .flex-container img {
     width: 100%;
     border: 5px solid var(--lightblue);
 }
 
-.primary-image{
+.primary-image {
     flex: 1 1 100%;
     position: relative;
     font-family: 'Courier New', Courier, monospace;
 }
 
-.secondary-image{
+.secondary-image {
     flex: 1 1 50%;
     padding: 10px;
     position: relative;
@@ -150,4 +149,17 @@ h2 {
     color: white;
     padding-left: 20px !important;
     padding-right: 20px !important;
-  }
+}
+
+@media screen and (max-width: 768px) {
+    .flex-container, nav {
+        flex-flow: column;
+    }
+}
+  
+@media screen and (max-width: 768px) {
+    nav {
+        font-size: 20px;
+        padding-top: 1px;
+    }
+}
