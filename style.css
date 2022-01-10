@@ -14,7 +14,7 @@
     display: flex;
     padding: 20px;
     width: 100%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rockwell', Courier, monospace;
     background-color: var(--darkblue);
     color: var(--light);
 }
@@ -38,7 +38,7 @@ nav {
     margin-left: auto;
     margin-right: 20px;
     float: right;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rockwell', Courier, monospace;
     font-size: 20px;
 }
 
@@ -88,7 +88,7 @@ a {
 h2 {
     display: flex;
     width: 15%;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rockwell', Courier, monospace;
     font-size: 30px;
     color: var(--darkblue);
     justify-content: right;
@@ -117,7 +117,7 @@ h2 {
     border-left: 3px solid var(--darkblue);
     width: 600px;
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rockwell', Courier, monospace;
     display: flex;
     flex-flow: row wrap;
 }
@@ -131,14 +131,14 @@ h2 {
 .primary-image {
     flex: 1 1 100%;
     position: relative;
-    font-family: 'Courier New', Courier, monospace;
+    font-family: 'Rockwell', Courier, monospace;
 }
 
 .secondary-image {
     flex: 1 1 50%;
     padding: 10px;
     position: relative;
-    font-family: 'Courier New', Courier, monospace; 
+    font-family: 'Rockwell', Courier, monospace; 
 }
 
 .text-block {
