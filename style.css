@@ -124,7 +124,7 @@ h2 {
 
 .flex-container img {
     width: 100%;
-    border: 6px solid var(--lightblue);
+    border: 8px solid var(--lightblue);
     border-radius: 6px;
 }
 
@@ -147,6 +147,7 @@ h2 {
     bottom: 40px;
     right: 35px;
     background: rgba(32, 106, 175, 0.5);
+    border-radius: 6px;
     color: white;
     padding-left: 20px !important;
     padding-right: 20px !important;
