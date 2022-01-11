@@ -72,11 +72,13 @@ a {
     text-decoration: none;
 }
 
-.content-section {
-    margin-bottom: 20px;
-    width: 100%;
-    padding: 20px;
+main {
+    margin-bottom: 25px;
+}
+
+section {
     display: flex;
+    padding: 20px 0;
 }
 
 .content-section div {
@@ -144,6 +146,7 @@ h2 {
 .text-block {
     position: absolute;
     width: 100px !important;
+    height: 75px;
     bottom: 40px;
     right: 40px;
     background: rgba(32, 106, 175, 0.5);
@@ -151,6 +154,10 @@ h2 {
     color: white;
     padding-left: 20px !important;
     padding-right: 20px !important;
+}
+
+h3 {
+    padding-top: 12px;
 }
 
 @media screen and (max-width: 768px) {
