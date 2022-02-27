@@ -73,7 +73,8 @@ a {
 }
 
 main {
-    margin-bottom: 25px;
+    margin-bottom: 20px;
+    padding: 20px;
 }
 
 section {
@@ -81,8 +82,8 @@ section {
     padding: 20px 0;
 }
 
-.content-section div {
-    width: 75%;
+.section div {
+    width: 80%;
     padding: 20px;
     text-align: left;
 }
@@ -97,31 +98,31 @@ h2 {
     padding-right: 5px;
 }
 
-.content-section ul {
+.section ul {
     list-style-type: none;
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
 }
 
-.content-section ul li {
+.section ul li {
     display: inline-block;
     font-weight: bold;
     border-bottom: 3px solid var(--darkblue);
 }
 
-.content-section a {
+.section a {
     font-size: 16px;
     color: black;
 }
 
 .flex-container {
     border-left: 3px solid var(--darkblue);
-    width: 600px;
     position: relative;
     font-family: 'Rockwell', Courier, monospace;
     display: flex;
     flex-flow: row wrap;
+    padding: 0px !important;
 }
 
 .flex-container img {
@@ -130,22 +131,22 @@ h2 {
     border-radius: 6px;
 }
 
-.primary-image {
+#primary-image {
     flex: 1 1 100%;
     position: relative;
     font-family: 'Rockwell', Courier, monospace;
 }
 
-.secondary-image {
+#secondary-image {
     flex: 1 1 50%;
-    padding: 10px;
+    padding: 20px;
     position: relative;
     font-family: 'Rockwell', Courier, monospace; 
 }
 
 .text-block {
     position: absolute;
-    width: 100px !important;
+    /* width: 100px !important; */
     height: 75px;
     bottom: 40px;
     right: 40px;
@@ -157,7 +158,7 @@ h2 {
 }
 
 h3 {
-    padding-top: 12px;
+    padding-top: 23px;
 }
 
 @media screen and (max-width: 768px) {
