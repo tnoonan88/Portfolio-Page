@@ -132,12 +132,16 @@ h2 {
 }
 
 #primary-image {
+    width: 100%;
+    height: auto;
     flex: 1 1 100%;
     position: relative;
     font-family: 'Rockwell', Courier, monospace;
 }
 
 #secondary-image {
+    width: 100%;
+    height: auto;
     flex: 1 1 50%;
     padding: 20px;
     position: relative;
@@ -146,7 +150,6 @@ h2 {
 
 .text-block {
     position: absolute;
-    /* width: 100px !important; */
     height: 75px;
     bottom: 40px;
     right: 40px;
